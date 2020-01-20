@@ -19,5 +19,5 @@ class String
   end
   
   def count_sentences_words
-    self.split(/.?!/).map{|x| !(x.match(/\w+/).nil?)
+    self.split(/.?!/).map{|x| !(x.match(/\w+/).nil?)} 
 end
